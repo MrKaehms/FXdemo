@@ -1,6 +1,7 @@
 This Repository contains a few sample JavaFX programs.  In order to create
 your own JavaFX programs using these examples, you will need to create a
-Java Project <Using Maven - See the screenshots of installed Java and JavaFX extensions>
+Java Project <Using Maven - See the screenshots of installed Java and JavaFX extensions along with steps to create a Maven JavaFX project in
+the screenshots folder>
 
 Maven is one of the build extensions that you will need to install if it isn't
 already.  
