@@ -24,10 +24,14 @@ OpenJDK 64-Bit Server VM Temurin-21.0.5+11 (build 21.0.5+11-LTS, mixed mode)
 The major version of your Java JDK needs to match the entries in the pom.xml file that is created when creating your project.  See the above video for
 details.  For this repo, and my home computer configuration, the lines modified are:
 
- <properties>
+ \<properties>
+ 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        
         <maven.compiler.source>21</maven.compiler.source>
+        
         <maven.compiler.target>21</maven.compiler.target>
+        
     </properties>
 
     (Note the "21" in the source and target lines above)
@@ -55,9 +59,11 @@ package com.example;
 If you create new sample java files you will have to add the above line, or one like it, depending on what you name the package, to the top of the java file,
 and you will have to change one more line in the pom.xml file to identify the entry point of your program:
 
-  <configuration>
+  \<configuration>
+  
            <mainClass>com.example.LineChartExample</mainClass>
-  </configuration>
+           
+  \</configuration>
 
 In this example, LineChartExample is the entry point, and it is part of the com.example package.
 
