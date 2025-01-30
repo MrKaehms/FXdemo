@@ -15,7 +15,9 @@ java -XshowSettings:properties -version
 For my home computer, the lines below identify the jdk version (Note the major number "21". You will need to update the pom.xml file to reflect this):
 
 openjdk version "21.0.5" 2024-10-15 LTS
+
 OpenJDK Runtime Environment Temurin-21.0.5+11 (build 21.0.5+11-LTS)
+
 OpenJDK 64-Bit Server VM Temurin-21.0.5+11 (build 21.0.5+11-LTS, mixed mode)
 
 
