@@ -69,7 +69,7 @@ and you will have to change one more line in the pom.xml file to identify the en
 In this example, LineChartExample is the entry point, and it is part of the com.example package.
 
 
-        
+  Note that all of the sample java FX files are in the     /src/main/java/com/example/   folder.
 
 
 
